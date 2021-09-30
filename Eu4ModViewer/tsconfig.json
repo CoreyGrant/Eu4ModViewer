@@ -1,0 +1,15 @@
+﻿{
+	"compilerOptions": {
+		"outDir": "./built/",
+		"sourceMap": true,
+		"strict": true,
+		"module": "ESNext",
+		"moduleResolution": "node",
+		"target": "ES2019",
+		"skipLibCheck": true,
+		"esModuleInterop": true,
+		"experimentalDecorators": true,
+		"noImplicitAny": false,
+		"resolveJsonModule": true
+	},
+}

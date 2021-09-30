@@ -1,0 +1,17 @@
+**/node_modules
+**/appsettings.Development.json
+**/eu4modviewer.PublishSettings
+/.vs/Eu4ModViewer
+/Eu4ModViewer/bin
+/Eu4ModViewer/built
+/Eu4ModViewer/obj
+/Eu4ModViewer/Properties
+/Eu4ModViewer.Database/obj/Debug
+/Eu4ModViewer.Models/bin
+/Eu4ModViewer.Models/obj
+/Eu4ModViewer.ModParser/bin
+/Eu4ModViewer.ModParser/obj
+/Eu4ModViewer.ModParser/Properties/PublishProfiles
+/Eu4ModViewer.Shared/bin
+/Eu4ModViewer.Shared/obj
+/Eu4ModViewer.Shared/Properties/PublishProfiles

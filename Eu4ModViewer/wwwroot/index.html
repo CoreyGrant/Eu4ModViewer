@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="UTF-8" />
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+	<link rel="icon" type="image/png" sizes="32x32" href="/Icons/app-icon.png">
+	<style>
+		.eu4-tag {
+			background-image: url("Icons/UI/background-tile.png");
+			border: 3px double rgb(165, 121, 66);
+			border-radius: 5px;
+			height: 40px;
+			padding: 3px;
+			cursor: pointer;
+			margin: 4px;
+			
+		}
+		.eu4-btn-sm {
+			background-image: url("Icons/UI/sm-button.png");
+			background-repeat: no-repeat;
+			background-position: center;
+			background-color: transparent;
+			width: 85px;
+			color: #d4d4d4 !important;
+			font-size: 0.8rem;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			height: 20px;
+			border: none;
+			border-radius: 0;
+		}
+		.eu4-btn-add {
+			background-image: url("Icons/UI/add_button.png");
+			background-color: transparent;
+			width: 25px;
+			height: 25px;
+			border: none;
+			border-radius: 0;
+		}
+		.eu4-btn-sm:disabled{
+			color: red;
+		}
+		button:disabled{
+			cursor: not-allowed;
+		}
+		.country, .idea-group, .policy, .religion-group {
+			background-image: url("Icons/UI/background-tile.png");
+		}
+
+		.green-banner {
+			background-image: url("Icons/UI/green_banner.png");
+		}
+
+		.green-banner-small {
+			background-image: url("Icons/UI/green_banner_small.png");
+		}
+
+		.green-banner-small-2 {
+			background-image: url("Icons/UI/green_banner_small_2.png");
+			width: 365px;
+			height: 80px;
+		}
+
+		.simplebar-scrollbar {
+			height: 16px !important;
+			width: 16px;
+			background-image: url("/Icons/UI/scroll_drager.png");
+		}
+
+		.simplebar-track {
+			background-image: url("/Icons/UI/scroll_track.png");
+			background-repeat: repeat-y;
+			width: 16px !important;
+			background-position-x: 2px;
+		}
+	</style>
+	<title>EU4 Mod Viewer</title>
+</head>
+<body>
+	<div id='app' v-cloak>
+		<app-header></app-header>
+		<router-view></router-view>
+	</div>
+	<script src="/app.js" type="text/javascript"></script>
+</body>
+</html>
